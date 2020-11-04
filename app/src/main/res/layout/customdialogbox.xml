@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="2">
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textAlignment="viewEnd"
+        android:textColor="@color/black"
+        android:text="ID"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textAlignment="viewEnd"
+        android:textColor="@color/black"
+        android:text="First Name" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:textAlignment="viewEnd"
+        android:text="Last Name" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:textAlignment="viewEnd"
+        android:text="Phone" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:textAlignment="viewEnd"
+        android:text="Email" />
+   </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/tv_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textAlignment="viewStart"
+            android:textColor="@color/black"
+            android:text="TextView" />
+        <TextView
+            android:id="@+id/tv_lname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textAlignment="viewStart"
+            android:textColor="@color/black"
+            android:text="TextView" />
+        <TextView
+            android:id="@+id/tv_fname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:textAlignment="viewStart"
+            android:text="TextView" />
+        <TextView
+            android:id="@+id/tv_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:textAlignment="viewStart"
+            android:text="TextView" />
+        <TextView
+            android:id="@+id/tv_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:textAlignment="viewStart"
+            android:text="TextView" />
+    </LinearLayout>
+</LinearLayout>
